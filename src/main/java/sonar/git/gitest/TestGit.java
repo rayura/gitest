@@ -6,7 +6,10 @@ public class TestGit {
 			throw new Exception();
 			//11
 		} catch (Exception e) {
-			
+		}
+		try {
+			throw new Exception();
+		} catch (Exception e) {
 		}
 	}
 }
