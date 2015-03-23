@@ -1,6 +1,6 @@
-package sonar.git.gitest;
+package sonar.git.gitest.module1;
 
-public class TestGit {
+public class TestGit1 {
 	public static void main(String[] args) {
 		try {
 			throw new Exception();
