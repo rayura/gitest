@@ -5,7 +5,6 @@ public class TestGit1 {
 		try {
 			throw new Exception();
 		} catch (Exception e) {
-			e.printStackTrace();
 		}
 		try {
 			throw new Exception();
@@ -15,7 +14,6 @@ public class TestGit1 {
 		try {
 			throw new Exception();
 		} catch (Exception e) {
-			e.printStackTrace();
 		}
 	}
 }
