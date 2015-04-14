@@ -8,12 +8,9 @@ public class Test11 {
 			e.printStackTrace();
 		}
 		try {
-			throw new Exception();
-		} catch (Exception e) {
-		}
-		try {
 			throw new RuntimeException();
 		} catch (Exception e) {
+			e.printStackTrace();
 		}
 	}
 
