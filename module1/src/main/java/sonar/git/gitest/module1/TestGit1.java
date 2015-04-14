@@ -5,14 +5,11 @@ public class TestGit1 {
 		try {
 			throw new Exception();
 		} catch (Exception e) {
-			e.printStackTrace();
-			e.printStackTrace();
+			System.out.println("");
 		}
 		try {
 			throw new Exception();
 		} catch (Exception e) {
-			e.printStackTrace();
-			e.printStackTrace();
 		}
 		try {
 			throw new Exception();
