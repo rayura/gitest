@@ -5,7 +5,6 @@ public class Test11 {
 		try {
 			throw new Exception();
 		} catch (Exception e) {
-			e.printStackTrace();
 		}
 	}
 
