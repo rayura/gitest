@@ -6,6 +6,10 @@ public class Test11 {
 			throw new Exception();
 		} catch (Exception e) {
 		}
+		try {
+			throw new Exception();
+		} catch (Exception e) {
+		}
 	}
 
 }
