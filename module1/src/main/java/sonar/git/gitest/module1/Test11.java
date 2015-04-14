@@ -5,14 +5,12 @@ public class Test11 {
 		try {
 			throw new Exception();
 		} catch (Exception e) {
+			e.printStackTrace();
 		}
 		try {
 			throw new Exception();
 		} catch (Exception e) {
-		}
-		try {
-			throw new Exception();
-		} catch (Exception e) {
+			e.printStackTrace();
 		}
 	}
 
