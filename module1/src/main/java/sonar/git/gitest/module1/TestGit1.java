@@ -10,6 +10,7 @@ public class TestGit1 {
 		try {
 			throw new Exception();
 		} catch (Exception e) {
+			System.out.println("");
 		}
 		try {
 			throw new Exception();
