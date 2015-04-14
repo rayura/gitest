@@ -12,6 +12,11 @@ public class Test11 {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+		try {
+			throw new RuntimeException();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 
 }
