@@ -15,6 +15,8 @@ public class Test11 {
 			e.printStackTrace();
 			e.printStackTrace();
 			e.printStackTrace();
+			e.printStackTrace();
+			e.printStackTrace();
 		}
 	}
 
