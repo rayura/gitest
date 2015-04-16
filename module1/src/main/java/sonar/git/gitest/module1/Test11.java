@@ -6,10 +6,15 @@ public class Test11 {
 			throw new RuntimeException();
 		} catch (Exception e) {
 			e.printStackTrace();
+			e.printStackTrace();
+			e.printStackTrace();
 		}
 		try {
 			throw new RuntimeException();
 		} catch (Exception e) {
+			e.printStackTrace();
+			e.printStackTrace();
+			e.printStackTrace();
 		}
 	}
 
