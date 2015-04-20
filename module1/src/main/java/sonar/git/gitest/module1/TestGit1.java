@@ -18,5 +18,12 @@ public class TestGit1 {
 			System.out.println("");
 			e.printStackTrace();
 		}
+
+		try {
+			throw new Exception();
+		} catch (Exception e) {
+			System.out.println("");
+			e.printStackTrace();
+		}
 	}
 }
